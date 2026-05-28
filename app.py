@@ -355,7 +355,7 @@ with tab_model:
          "Ningún camión puede precederse a sí mismo."),
         ("(C9-C11) Secuencia de salida (3 restricciones)",
          r"d_{j'} \geq d_j + t_{change} - M(1-\sigma^s_{jj'}) \quad \forall j \neq j'",
-         "Restricción anáfora para el muelle de salida."),
+         "Restricción análoga para el muelle de salida."),
         ("(C12) Anti-reflexividad salida",
          r"\sigma^s_{jj} = 0 \quad \forall j",
          "Ningún camión de salida puede precederse a sí mismo."),
